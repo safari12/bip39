@@ -1,0 +1,3 @@
+%{
+  "scrypto": {:git, "https://github.com/safari12/scrypto.git", "142fac656cbede75af99af68c7fa99086774e51a", []},
+}
