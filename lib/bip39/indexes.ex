@@ -41,8 +41,8 @@ defmodule BIP39.Indexes do
   guaranteed randomness
   """
 
-  @spec generate_indexes(number) :: list(number)
-  def generate_indexes(entropy_byte_size)
+  @spec generate(number) :: list(number)
+  def generate(entropy_byte_size)
     when entropy_byte_size >= 16 and entropy_byte_size <= 32
   do
     entropy = generate_entropy(entropy_byte_size)
